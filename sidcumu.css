@@ -1,0 +1,37 @@
+@import url('./sidmool.css');
+
+div.mainp{width:100%;
+    position: relative;}
+
+div.mainp>p img{width:100%;}
+div.mainp>p:nth-child(2){position:absolute;
+    top:66px; left: 333px;
+    font-size: 70px;
+    font-family:'Times New Roman', Times, serif;}
+
+
+    .board {
+        width: 1000px;
+        margin: 100px auto;
+        border-collapse: collapse;
+        font-size: 13px;
+       
+    margin-top: 150px;}
+    
+    
+    .board caption{text-align: left;
+    font-size: 14px;
+margin: 10px; font-weight: bold;}
+    .board thead {background-color:rgb(156, 196, 164);}
+    
+    .board th,
+    .board td {
+        padding: 20px;
+        border-bottom: 1px solid rgb(178, 212, 171);
+        text-align: center;
+    }
+    .board td:nth-of-type(2) {text-align: center;}
+    .board tbody tr:nth-of-type(even){
+        background: #f3f3f3;
+    }
+    

@@ -1,0 +1,82 @@
+@import url('./sidmool.css');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&family=Noto+Serif+KR:wght@700&family=Nunito+Sans:wght@200;300;400&family=Playfair+Display:wght@600&display=swap');
+div.mainp{width:100%;
+position: relative;}
+
+div.mainp img{width:100%;}
+
+div.mainp>p:nth-child(2){position:absolute;
+top:30px; left: 333px;
+font-size: 70px;
+font-family:'Times New Roman', Times, serif;}
+
+div.mainp>p:nth-child(2) span{color: rgb(68, 143, 68);}
+
+div.mainp>p:nth-child(3) {position:absolute;
+  
+    bottom:140px; right: 400px;
+    font-size: 44px;
+    font-family: 'Noto Serif KR', serif;}
+    div.mainp>p:nth-child(4) {position:absolute;
+  
+        bottom:50px; right: 360px;
+        font-size: 66px;
+        color: rgb(68, 143, 68);
+        font-family: 'Noto Serif KR', serif;}
+
+        div.mainp>p:nth-child(5) {position:absolute;
+
+            bottom:210px; right: 400px;
+            font-size: 20px;
+            font-family: 'Noto Serif KR', serif;}
+
+div.abouts{ text-align: center;
+margin: 90px 0 0 0;}
+
+div.abouts>p img{padding: 30px ;}
+
+div.real{width:1320px; height: 845px;
+    margin:0 auto;
+
+margin-top: 150px;
+box-sizing: border-box;
+position:relative;
+background-color: rgb(217, 238, 245);}
+div.real>p:nth-child(2){position: absolute;
+left: 640px; top:0}
+
+div.real>p:nth-child(3){position: absolute;
+    right: 0px; top:250px;}
+    
+    div.real>p:nth-child(4){position: absolute;
+        right: 350px; top:50px;
+        font-family: 'Noto Serif KR', serif;
+    font-size: 18px; line-height: 40px;}
+    div.real>p:nth-child(5){position: absolute;
+        right: 100px; top:370px; color: white;
+        font-family: 'Noto Serif KR', serif;
+    font-size: 30px; }
+
+    div.real>p:nth-child(6){position: absolute;
+        right: 60px; bottom:50px;
+        font-family: 'Noto Serif KR', serif;
+    font-size: 18px; line-height: 40px;}
+        
+div.cor{width:100%; text-align: center;
+margin-top:150px;}
+
+div.title{width:100%; line-height: 40px; 
+   
+}
+div.title>p:nth-child(1){font-family:'Times New Roman', Times, serif;
+font-weight: normal; font-size: 40px;}
+div.title>p span{color: rgb(68, 143, 68);}
+div.title>p:nth-child(2){font-family: 'Noto Serif KR', serif;
+    font-size: 20px;color: rgb(68, 143, 68);}
+
+div.bla{margin-top: 120px;}
+div.bla>div{line-height: 30px;}
+
+div.bla>div>b{font-size: 20px;color: rgb(68, 143, 68);}
+div.bla>div>p{font-size: 18px;
+margin-bottom: 80px;}

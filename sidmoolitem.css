@@ -1,0 +1,59 @@
+@import url('./sidmool.css');
+
+div.mainp{width:100%;
+    position: relative;}
+
+div.mainp>p img{width:100%;}
+div.mainp>p:nth-child(2){position:absolute;
+    top:66px; left: 333px;
+    font-size: 70px;
+    font-family:'Times New Roman', Times, serif;}
+
+article.item{width:1686px; margin:0 auto;}
+article.item h6{margin:20px 0; font-size: 20px;
+font-weight: normal;}
+article.item ul{width:100%;display: flex;
+
+list-style-type: none;
+flex-wrap: wrap;
+justify-content: space-between;}
+article.item>ul>li> p{width:100%; font-size: 13px;
+text-align: right;}
+article.item li{ margin:10px;}
+
+article.new{width:1686px; margin:0 auto;
+margin-top: 180px;}
+article.new h6{margin:20px 0; font-size: 20px;
+font-weight: normal;}
+article.new ul{width:100%;display: flex;
+
+list-style-type: none;
+flex-wrap: wrap;
+justify-content: space-between;}
+article.new>ul>li> p{width:100%; font-size: 13px;
+text-align: right;}
+article.new li{ margin:10px;}
+
+article.core{width:1686px; margin:0 auto; 
+margin-top: 150px;}
+article.core>ul>li>img{width:100%;}
+article.core>ul>li> p{width:100%; font-size: 13px;
+    text-align: right;}
+article.core h6{margin:20px 0; font-size: 20px;
+    font-weight: normal;}
+    article.core ul{width:100%;display: flex;
+    list-style-type: none;
+flex-wrap: wrap; justify-content: space-between;}
+
+
+
+
+
+
+
+
+
+
+
+    
+   
